@@ -3,8 +3,8 @@ on:
   push:
     branches:
     - main
-    paths:
-    - '/HenryArendResume.md'
+    # paths:
+    # - 'docs/**.md'
 
 jobs:
   ConvertToPDF:
