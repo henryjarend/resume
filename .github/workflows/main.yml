@@ -17,7 +17,27 @@ jobs:
           input_dir: docs
           output_dir: pdfs
           build_html: false
-      - uses: actions/upload-artifact@v1
+      # - uses: actions/upload-artifact@v1
+      #   # with:
+      #   #   name: docs
+      #   #   path: pdfs
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: docs
-          path: pdfs
+          draft: false
+          prerelease: false
+      - name: upload PDF
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./pdfs/*.pdf
+          asset_name: HenryArendResume.pdf
+          asset_content_type: application/pdf
+        
+
