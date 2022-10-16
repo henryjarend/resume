@@ -4,14 +4,21 @@
 #### 4611 Valleyridge Ave SW Wyoming, MI 49519 • henryjarend@gmail.com • 907.240.1191
 ___
 
-#### Skills
+### Skills
 <!-- ___ -->
 AWS Administration, Docker, Linux (RHEL & Ubuntu) Administration, Ansible, Windows Server Administration, Tableau Server Administration and Development, Microsoft SQL, MySQL
 <!-- Alteryx Server Administration and Development, Database Administration -->
 ___
-#### Related Work Experience
+### Related Work Experience
 
-| DevOps Engineer | Infrastructure Automation | InterWorks | 2022- Present
+| DevOps Engineer | Infrastructure Automation | InterWorks | 2022- Present |
+| :-------------- | :-----------------------: | :--------: | :-----------: |
+
+* Work within a team to create end to end proactive monitoring solution
+* Create reliable automations to be deployed across a variety of client environments
+* Create highly available kubernetes deployment for hosting services 
+* Use pipelines to create automated, repeatable deployments in AWS
+* Create container images to run hosted software
 
 | Platforms Architect | Platforms Practice | InterWorks | 2020- 2021 |
 | :------------------ | :----------------: | :--------: | ------------: |
@@ -19,7 +26,6 @@ ___
 * Design and implement Tableau Server implementations
 * Collect end user requirements
 * Scope projects and deliver requirements for a statement of work
-* 
 
 | Platforms Engineer | Platforms Practice | InterWorks | 2019 |
 | :----------------- | :----------------: | :--------: | ---: |
@@ -39,7 +45,7 @@ ___
 * Help implement a peer review for code being deployed to production
 * Provide formal and informal training for analytics tools to users around the company
 
-<!-- * Provide ad-hoc query support and report delivery -->
+<!-- * Provide ad-hoc query support and report delivery
 
  | Data Analyst I | Data Analytics and Reporting |  GCI  | 2016 - 2018 |
  | :------------- | :--------------------------: | :---: | ----------: |
@@ -58,19 +64,19 @@ ___
  * Teach fundamentals of good nutrition and healthy habits outside of workouts
  * Assist race staff with coordinating students and bibs
  * Help promote healthy lifestyles for students
- * Work with a wide variety of students to promote a positve view of outdoor athletics -->
+ * Work with a wide variety of students to promote a positve view of outdoor athletics
 
- | Data Analytics Intern | Data Analytics and Reporting |  GCI  | 2015 |
+ | Data Analytics Intern | Data Analytics and Reporting |  GCI  | 2015-2019 |
  | :-------------------- | :--------------------------: | :---: | ---: |
 
 * Complete projects over the course of the summer
 * Design and implement service reports
-* Replace a previous system with a more efficient solution
-
+* Replace a previous system with a more efficient solution -->
  ___
 ### Education
 ___
-#### Montana State University, Bozeman, MT -- Graduated December 2015
+| Montana State University | Bozeman, MT | Graduated December 2015 |
+| :-- | :--: | --: |
  * Bachelor of Science, Computer Engineering
 <!--#### University of Alaska Anchorage, Anchorage, AK -- June - July 2013,2014
 ___
@@ -82,11 +88,11 @@ ___
 * Help students to understand how to apply concepts to future assignments
 * Grade weekly homework assignments -->
 
-#### Certifications and Awards
+<!-- ### Certifications and Awards -->
 <!-- ___ -->
-* Tableau Server Certified Professional
-* AWS Cloud Practitioner
+<!-- * Tableau Server Certified Professional -->
+<!-- * AWS Cloud Practitioner -->
 <!-- * Tableau Desktop Qualified Associate -->
-* Anchorage Data Analytics User Group Leader 2018-2019
+<!-- * Anchorage Data Analytics User Group Leader 2018-2019 -->
 <!-- * Dean's List - 2013
 * National Association of College and University Residence Halls Bronze Leadership Pin - 2012 -->
