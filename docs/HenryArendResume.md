@@ -6,12 +6,12 @@ ___
 
 ### Skills
 <!-- ___ -->
-AWS Administration, Docker, Linux (RHEL & Ubuntu) Administration, Ansible, Windows Server Administration, Tableau Server Administration and Development, Microsoft SQL, MySQL
+AWS Administration, Kubernetes, Docker, Linux (RHEL & Ubuntu) Administration, Ansible, Windows Server Administration, Tableau Server Administration and Development, Microsoft SQL, MySQL
 <!-- Alteryx Server Administration and Development, Database Administration -->
 ___
 ### Related Work Experience
 
-| DevOps Engineer | Infrastructure Automation | InterWorks | 2022- Present |
+| Platforms Architect | Infrastructure Automation | InterWorks | 2022- Present |
 | :-------------- | :-----------------------: | :--------: | :-----------: |
 
 * Work within a team to create end to end proactive monitoring solution
