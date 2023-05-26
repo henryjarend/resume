@@ -1,3 +1,18 @@
-"dependencies": {
-  "markdown-pdf": "^10.0.1"
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render-pdf.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-pdf": "^11.0.0"
+  }
 }
