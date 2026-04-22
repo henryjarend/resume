@@ -1,7 +1,7 @@
 <link href="resume.css" rel="stylesheet">
 
 ## Henry Arend
-#### 4611 Valleyridge Ave SW Wyoming, MI 49519 • henryjarend@gmail.com • 907.240.1191
+#### 1827 Gloryfield Drive SW Byron Center, MI 49315 • henryjarend@gmail.com • 907.240.1191
 ___
 
 ### Skills
