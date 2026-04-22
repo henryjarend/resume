@@ -1,5 +1,6 @@
 name: Render Markdown to PDF and Create Release
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -9,16 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Create PDF
-        uses: BaileyJM02/markdown-to-pdf@v1.2.0
+      - uses: cornelius/action-md-as-pdf@main
+        if: github.ref == 'refs/heads/main'
         with:
-          input_path: docs/HenryArendResume.md
-          output_dir: pdfs
-          build_pdf: true
-          theme: docs/resume.css
-      - name: Publish PDF
-        run: |
-          gh release upload ${{ github.sha }} pdfs/HenryArendResume.pdf
+          markdown_dir: docs
+          pdf_file: output.pdf
+      - uses: actions/upload-artifact@v1
+        with:
+          name: Generated PDF
+          path: output.pdf
