@@ -20,7 +20,7 @@ jobs:
         with:
           markdown_dir: docs
           pdf_file: output.pdf
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v7.0.1
         with:
           name: Generated PDF
           path: output.pdf
