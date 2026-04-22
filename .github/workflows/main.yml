@@ -7,40 +7,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Create PDF
+        uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
-          node-version: '16'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Render Markdown to PDF
-        run: npm run render-pdf
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.sha }}
-          release_name: Release ${{ github.sha }}
-          draft: false
-          prerelease: false
-
-      - name: Upload PDF
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./HenryArendResume.pdf
-          asset_name: HenryArendResume.pdf
-          asset_content_type: application/pdf
-
+          input_path: docs/HenryArendResume.md
+          output_dir: pdfs
+          build_pdf: true
+          theme: docs/resume.css
+      - name: Publish PDF
+        run: |
+          gh release upload ${{ github.sha }} pdfs/HenryArendResume.pdf
