@@ -6,19 +6,23 @@ ___
 
 ### Skills
 <!-- ___ -->
-AWS Administration, Kubernetes, Docker, Linux (RHEL & Ubuntu) Administration, Ansible, Windows Server Administration, Tableau Server Administration and Development, Microsoft SQL, MySQL
-<!-- Alteryx Server Administration and Development, Database Administration -->
+AWS Administration, Kubernetes, Docker, Linux (RHEL & Ubuntu) Administration, Prometheus, Ansible, Windows Server Administration, Microsoft SQL, MySQL
+<!-- Alteryx Server Administration and Development, Database Administration, Tableau Server Administration and Development -->
 ___
 ### Related Work Experience
 
 | Platforms Architect | Infrastructure Automation | InterWorks | 2022- Present |
-| :-------------- | :-----------------------: | :--------: | :-----------: |
+| :------------------ | :-----------------------: | :--------: | :-----------: |
 
-* Work within a team to create end to end proactive monitoring solution
-* Create reliable automations to be deployed across a variety of client environments
-* Create highly available kubernetes deployment for hosting services 
-* Use pipelines to create automated, repeatable deployments in AWS
+* Create highly available Kubernetes deployment for hosting customer facing services
 * Create container images to run hosted software
+* Use CI/CD pipelines to give feedback on code changes
+* Use CI/CD pipelines to deploy changes to infrastructure
+* Deploy a resilient monitoring system to ensure a good expierience for customers
+* Collaborate with T1/T2 team for day to day monitoring
+<!-- * Use automation tools to create a highly available platform
+* Combine multiple technologies to host a self healing infrastructure -->
+
 
 | Platforms Architect | Platforms Practice | InterWorks | 2020- 2021 |
 | :------------------ | :----------------: | :--------: | ------------: |
